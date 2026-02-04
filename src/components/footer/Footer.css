@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+.footer-container {
+    @apply w-full bg-[var(--color-navbar-bg)] shadow-inner mt-auto;
+}
+
+.footer-content  {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2
+           flex flex-col md:flex-row items-center justify-between gap-6;
+}
+
+/* Brand */
+.footer-brand {
+    @apply text-center md:text-left;
+}
+
+.footer-brand-name {
+    @apply text-xl font-bold text-white;
+}
+
+.footer-tagline {
+    @apply text-sm text-white/60 mt-1;
+}
+
+/* Social Links */
+.footer-social {
+    @apply flex items-center gap-4;
+}
+
+.footer-social-link {
+    @apply text-white/70 hover:text-[var(--color-container-bg)] transition-colors duration-200;
+}
+
+.footer-social-link:hover  {
+    @apply text-[var(--color-container-bg)];
+}
+
+.footer-icon {
+    @apply w-6 h-6;
+}
+
+/* Contact Button */
+.footer-button {
+    @apply px-6 py-2.5 rounded-lg font-medium text-white
+           bg-[var(--color-container-bg)] hover:bg-[var(--color-outline-brightblue)]
+           transition-colors duration-200;
+}
+
+.footer-button:hover {
+    @apply bg-[var(--color-outline-brightblue)];
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    @apply border-t border-white/10 py-4 text-center text-sm text-white/50;
+}

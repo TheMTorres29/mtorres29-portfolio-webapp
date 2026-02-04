@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+.hero-container {
+    /* full screen minus navbar height (Navbar uses h-16 => 4rem) */
+    min-height: calc(100dvh - 4rem);
+
+    @apply w-full relative overflow-hidden flex items-center justify-center px-4 text-center;
+    background-color: var(--color-mobile-menu-bg);
+}
+
+.hero-bg-video {
+    @apply absolute inset-0 w-full h-full;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 1.0; /* adjust to taste */
+    pointer-events: none;
+}
+
+.hero-content {
+    @apply relative z-10 max-w-4xl;
+}
+
+.hero-title {
+    @apply text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6;
+}
+
+.hero-subtitle {
+    @apply text-lg sm:text-xl md:text-2xl text-gray-300 mb-8;
+}
+
+.hero-button {
+    @apply bg-[var(--color-container-bg)] text-white font-medium px-6 py-3 rounded-lg hover:bg-[var(--color-outline-brightblue)] transition duration-300;
+}
+
+.hero-button:hover {
+    @apply bg-[var(--color-outline-brightblue)];
+}

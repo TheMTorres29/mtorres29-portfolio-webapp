@@ -1,0 +1,150 @@
+import React from 'react';
+import './Portfolio.css';
+
+const projects = [
+    {
+        id: 'proj-1',
+        title: 'Random Smashdown',
+        description: 'The original ReactJS Fighter Randomizer for Super Smash Bros Ultimate.',
+        tech: ['React', 'JavaScript'],
+        thumbnail: 'https://drive.google.com/thumbnail?id=1wU-jPVm9WqBKH4HIWlF9uiSqDPAqjeOR&export=download',
+        liveUrl: 'https://random-smashdown.site',
+        githubUrl: null,
+    },
+    {
+        id: 'proj-2',
+        title: 'Random Smashdown (Flask)',
+        description: 'A random character generator for Super Smash Bros. Ultimate using Python and Flask.',
+        tech: ['Python', 'Flask', 'AWS'],
+        thumbnail: 'https://drive.google.com/thumbnail?id=1rFG_kw6Ote7cvwEv63mE5WR9X6lFl-Nd&export=download',
+        liveUrl: 'https://ec2-3-95-67-134.compute-1.amazonaws.com/',
+        githubUrl: null,
+    },
+    {
+        id: 'proj-3',
+        title: 'Random Smashdown (TKinter)',
+        description: 'A random character generator for Super Smash Bros. Ultimate using Python and TKinter.',
+        tech: ['Python', 'TKinter'],
+        thumbnail: 'https://drive.google.com/thumbnail?id=1SLWNGXydBfeH-7wFRzgA2vlaGlK6mQgf&export=download',
+        liveUrl: null,
+        githubUrl: 'https://github.com/TheMTorres29/RandomSmashdown-Tkinter',
+    },
+    {
+        id: 'proj-4',
+        title: 'MTCG PokeStop Page',
+        description: 'A simple PokeStop landing page for the MTCG Card shop using HTML and CSS.',
+        tech: ['React', 'HTML', 'CSS'],
+        thumbnail: 'https://drive.google.com/thumbnail?id=1PpQHmXYbqDf-iR5eoExGoyGJ_tRZcLsp&export=download',
+        liveUrl: 'https://themtorres29.github.io/MTCG-PokeStop-Page/',
+        githubUrl: null,
+    },
+    {
+        id: 'proj-5',
+        title: 'Tropa Magica Game',
+        description: 'First Unity game I built for Game Design course.',
+        tech: ['Unity', 'C#'],
+        thumbnail: 'https://drive.google.com/thumbnail?id=1i6Pb2SYeFOuiehyGQXEx6IpEs3919xzv&export=download',
+        liveUrl: null,
+        githubUrl: 'https://github.com/TheMTorres29/TropaMagicaGameBuild/releases',
+    },
+    {
+        id: 'proj-6',
+        title: 'YT-MP3 Downloader',
+        description: 'YouTube to MP3 Downloader I made using Python.',
+        tech: ['Python'],
+        thumbnail: 'https://drive.google.com/thumbnail?id=1tMvN7JdBXRBa6wUGAa2zryRMHHb0VTle&export=download',
+        liveUrl: null,
+        githubUrl: 'https://github.com/TheMTorres29/YT-MP3Downloader/releases/tag/YT-MP3',
+    },
+    {
+        id: 'proj-7',
+        title: 'Custom Fightstick',
+        description: 'Custom universal fightstick I built to use when I play fighting games.',
+        tech: ['Hardware', 'DIY'],
+        thumbnail: 'https://drive.google.com/thumbnail?id=1MgjusYrMT7GXVgv4bxvEzBdw5YFoIp8o&export=download',
+        liveUrl: null,
+        githubUrl: null,
+        internalLink: '/fightstick', // For internal routing if needed
+    },
+];
+
+const GitHubIcon = () => (
+    <svg className="project-link-icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" />
+    </svg>
+);
+
+const ExternalLinkIcon = () => (
+    <svg className="project-link-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+    </svg>
+);
+
+const Portfolio = () => {
+    return (
+        <section className="portfolio-container">
+            <div className="portfolio-inner">
+                <h2 className="portfolio-heading">Projects</h2>
+                <p className="portfolio-intro">
+                    A selection of projects that showcase my skills and experience. Each project highlights different technologies and approaches I've used to solve problems and create engaging experiences.
+                </p>
+
+                <div className="portfolio-grid">
+                    {projects.map((project) => (
+                        <article key={project.id} className="project-card">
+                            {/* Thumbnail */}
+                            <div className="project-thumbnail">
+                                <img
+                                    src={project.thumbnail}
+                                    alt={`${project.title} preview`}
+                                    loading="lazy"
+                                />
+                            </div>
+
+                            {/* Content */}
+                            <div className="project-content">
+                                <h3 className="project-title">{project.title}</h3>
+                                <p className="project-description">{project.description}</p>
+
+                                {/* Tech Stack */}
+                                <div className="project-tech">
+                                    {project.tech.map((t) => (
+                                        <span key={t} className="tech-badge">{t}</span>
+                                    ))}
+                                </div>
+
+                                {/* Links */}
+                                <div className="project-links">
+                                    {project.liveUrl && (
+                                        <a
+                                            href={project.liveUrl}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="project-link project-link--primary"
+                                        >
+                                            <ExternalLinkIcon />
+                                            Live Demo
+                                        </a>
+                                    )}
+                                    {project.githubUrl && (
+                                        <a
+                                            href={project.githubUrl}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="project-link project-link--secondary"
+                                        >
+                                            <GitHubIcon />
+                                            GitHub
+                                        </a>
+                                    )}
+                                </div>
+                            </div>
+                        </article>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default Portfolio;

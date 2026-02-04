@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+.nav-container {
+    @apply w-full bg-[var(--color-navbar-bg)] shadow-md sticky top-0 z-50;
+}
+
+.nav-content {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 relative;
+}
+
+.nav-logo {
+    @apply flex items-center text-white font-semibold cursor-pointer text-xl z-10;
+}
+
+/* Desktop Links - hidden on mobile */
+.nav-links {
+    @apply hidden md:flex items-center space-x-6;
+}
+
+.nav-link {
+    @apply font-medium;
+}
+
+.nav-link a {
+    @apply relative text-white py-1 transition-colors duration-200;
+}
+
+/* Underline element */
+.nav-link a::after {
+    content: '';
+    @apply absolute left-0 bottom-0 w-full h-[2px] bg-[var(--color-container-bg)]
+           origin-center scale-x-0 transition-transform duration-300 ease-out;
+}
+
+/* Expand underline on hover */
+.nav-link a:hover::after {
+    @apply scale-x-100;
+}
+
+/* Keep underline visible on active link */
+.nav-link a.active::after {
+    @apply scale-x-100;
+}
+
+.nav-link a.active {
+    @apply text-[var(--color-container-bg)];
+}
+
+/* ===== Hamburger Button ===== */
+.nav-hamburger {
+    @apply flex flex-col justify-center items-center w-10 h-10 cursor-pointer z-10
+           md:hidden; /* Hidden on desktop */
+    background: transparent;
+    border: none;
+    gap: 5px;
+}
+
+.hamburger-line {
+    @apply w-6 h-[3px] bg-white rounded-full transition-all duration-300 ease-out;
+}
+
+/* Animate to X when open */
+.hamburger-line.open:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-line.open:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-line.open:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* ===== Mobile Menu ===== */
+.nav-mobile-menu {
+    @apply fixed top-16 left-0 w-full overflow-hidden
+           bg-[var(--color-mobile-menu-bg)] shadow-lg
+           md:hidden; /* Hidden on desktop */
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+}
+
+.nav-mobile-menu.is-open {
+    max-height: 300px; /* Adjust based on content */
+}
+
+.nav-mobile-links {
+    @apply flex flex-col py-4 px-6 space-y-1;
+}
+
+.nav-mobile-link {
+    @apply py-3 border-b border-white/10;
+}
+
+.nav-mobile-link:last-child {
+    @apply border-b-0;
+}
+
+.nav-mobile-link a {
+    @apply block text-white font-medium text-lg transition-colors duration-200;
+}
+
+.nav-mobile-link a:hover {
+    @apply text-[var(--color-container-bg)];
+}
+
+.nav-mobile-link a.active {
+    @apply text-[var(--color-container-bg)];
+}

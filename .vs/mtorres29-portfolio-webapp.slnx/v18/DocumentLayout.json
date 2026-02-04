@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\timeline\\Timeline.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\timeline\\Timeline.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\timeline\\Timeline.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\timeline\\Timeline.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\navbar\\Navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\navbar\\Navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\pages\\Projects.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Projects.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\portfolio\\Portfolio.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\portfolio\\Portfolio.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\portfolio\\Portfolio.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\portfolio\\Portfolio.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\hero\\Hero.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\hero\\Hero.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\about\\AboutMe.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\about\\AboutMe.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\about\\AboutMe.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\about\\AboutMe.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\hero\\Hero.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\hero\\Hero.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Portfolio.css",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\portfolio\\Portfolio.css",
+              "RelativeDocumentMoniker": "src\\components\\portfolio\\Portfolio.css",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\portfolio\\Portfolio.css",
+              "RelativeToolTip": "src\\components\\portfolio\\Portfolio.css",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-04T08:44:24.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Portfolio.jsx",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\portfolio\\Portfolio.jsx",
+              "RelativeDocumentMoniker": "src\\components\\portfolio\\Portfolio.jsx",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\portfolio\\Portfolio.jsx",
+              "RelativeToolTip": "src\\components\\portfolio\\Portfolio.jsx",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-04T08:44:15.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AboutMe.css",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\about\\AboutMe.css",
+              "RelativeDocumentMoniker": "src\\components\\about\\AboutMe.css",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\about\\AboutMe.css",
+              "RelativeToolTip": "src\\components\\about\\AboutMe.css",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-04T07:41:54.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AboutMe.jsx",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\about\\AboutMe.jsx",
+              "RelativeDocumentMoniker": "src\\components\\about\\AboutMe.jsx",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\about\\AboutMe.jsx",
+              "RelativeToolTip": "src\\components\\about\\AboutMe.jsx",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwD8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-04T07:41:44.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Projects.jsx",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\pages\\Projects.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Projects.jsx",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\pages\\Projects.jsx",
+              "RelativeToolTip": "src\\pages\\Projects.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-04T07:15:32.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\pages\\Home.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Home.jsx",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\pages\\Home.jsx",
+              "RelativeToolTip": "src\\pages\\Home.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-04T07:09:15.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Navbar.css",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\navbar\\Navbar.css",
+              "RelativeDocumentMoniker": "src\\components\\navbar\\Navbar.css",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\navbar\\Navbar.css",
+              "RelativeToolTip": "src\\components\\navbar\\Navbar.css",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwC0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-04T00:03:03.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "main.jsx",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\main.jsx",
+              "RelativeDocumentMoniker": "src\\main.jsx",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\main.jsx",
+              "RelativeToolTip": "src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-04T07:18:21.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Timeline.jsx",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\timeline\\Timeline.jsx",
+              "RelativeDocumentMoniker": "src\\components\\timeline\\Timeline.jsx",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\timeline\\Timeline.jsx",
+              "RelativeToolTip": "src\\components\\timeline\\Timeline.jsx",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAMwHcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-04T06:57:33.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.jsx",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-03T23:13:02.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Hero.jsx",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\hero\\Hero.jsx",
+              "RelativeDocumentMoniker": "src\\components\\hero\\Hero.jsx",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\hero\\Hero.jsx",
+              "RelativeToolTip": "src\\components\\hero\\Hero.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-04T06:44:29.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Timeline.css",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\timeline\\Timeline.css",
+              "RelativeDocumentMoniker": "src\\components\\timeline\\Timeline.css",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\timeline\\Timeline.css",
+              "RelativeToolTip": "src\\components\\timeline\\Timeline.css",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAWwCYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-04T06:57:39.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Hero.css",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\hero\\Hero.css",
+              "RelativeDocumentMoniker": "src\\components\\hero\\Hero.css",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\components\\hero\\Hero.css",
+              "RelativeToolTip": "src\\components\\hero\\Hero.css",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-04T06:44:42.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.css",
+              "DocumentMoniker": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\index.css",
+              "RelativeDocumentMoniker": "src\\index.css",
+              "ToolTip": "E:\\Projects\\MTorres29-WebApp-2026\\MTorres29-Portfolio-WebApp\\mtorres29-portfolio-webapp\\src\\index.css",
+              "RelativeToolTip": "src\\index.css",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-03T23:34:42.933Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

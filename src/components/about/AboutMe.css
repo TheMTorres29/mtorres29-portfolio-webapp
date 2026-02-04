@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+.about-me-container {
+    @apply max-w-4xl mx-auto px-4 py-16;
+    background-color: var(--color-component-bg);
+}
+
+.about-heading {
+    @apply text-3xl font-bold text-white mb-6;
+}
+
+/* Education Section */
+.education-section {
+    @apply mt-16;
+}
+
+.education-heading {
+    @apply text-3xl font-bold text-white mb-8;
+}
+
+.education-list {
+    @apply space-y-6 list-none p-0 m-0;
+}
+
+.education-item {
+    @apply flex items-center gap-4 p-6 rounded-lg bg-white/5 border border-white/10;
+}
+
+.education-logo {
+    @apply w-16 h-16 rounded-full object-contain bg-white p-2 flex-shrink-0;
+}
+
+.education-content {
+    @apply flex flex-col sm:flex-row sm:items-center sm:justify-between w-full gap-2;
+}
+
+.education-main {
+    @apply flex flex-col;
+}
+
+.education-degree {
+    @apply text-white font-semibold text-lg;
+}
+
+.education-institution {
+    @apply text-white/70;
+}
+
+.education-meta {
+    @apply text-sm text-white/60;
+}
+
+.education-date {
+    @apply whitespace-nowrap;
+}
