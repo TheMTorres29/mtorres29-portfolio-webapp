@@ -26,11 +26,9 @@ const About = () => {
         <div id="about" className="about-me-container">
             <h2 className="about-heading">About Me</h2>
             <p>
-                Hello! I'm a passionate developer with a love for creating dynamic and user-friendly web applications.
-                I enjoy learning new technologies and improving my skills to build better solutions.
-            </p>
+                I'm a software developer with a background in IT support and operations leadership, focused on building practical tools that improve real workflows. I've led teams, supported production systems, and developed web applications that automate reporting and productivity tracking. I enjoy working at the intersection of technology and operations - where clean code meets real - world impact.            </p>
             <p>
-                In my free time, I like to explore nature, read books, and experiment with new coding projects.
+                In my free time I like to explore nature, play guitar, game a little bit, and experiment with new coding projects.
             </p>
 
             {/* Education Section */}

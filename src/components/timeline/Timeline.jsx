@@ -122,10 +122,11 @@ const Timeline = () => {
                 jobTitle: 'Unloader',
                 dateRange: 'Jan 2026 - Present',
                 details: [
-                    'Received and processed freight deliveries.',
-                    'Maintained inventory accuracy through regular audits.',
-                    'Collaborated with the sales team to ensure optimal stock levels.',
+                    'Unloaded and processed freight containers while consistently meeting productivity and accuracy standards',
+                    'Analyzed incoming freight to ensure correct receiving, documentation, and system accuracy',
+                    'Collaborated with management to quickly identify and resolve operational issues impacting productivity',
                 ],
+
             },
             {
                 id: 'job-2',
@@ -135,10 +136,11 @@ const Timeline = () => {
                 jobTitle: 'Receiving Lead',
                 dateRange: 'May 2024 - January 2026',
                 details: [
-                    'Led a team of receivers in a high-volume warehouse.',
-                    'Implemented process improvements that enhanced efficiency by 15%.',
-                    'Trained new employees on safety and operational procedures.',
+                    'Led and coordinated a team of 10 - 20 associates to unload and process freight containers efficiently and on schedule',
+                    'Communicated with team members and management to resolve workflow issues, maintain productivity, and ensure operational continuity',
+                    'Designed and developed a productivity management web application to automate hour tracking and performance calculations',
                 ],
+
             },
             {
                 id: 'job-3',
@@ -148,10 +150,11 @@ const Timeline = () => {
                 jobTitle: 'Fresh Dept. Associate',
                 dateRange: 'Oct 2023 - May 2024',
                 details: [
-                    'Assisted in the management of the fresh department, including inventory management and merchandising.',
-                    'Achieved a 10% reduction in waste through effective stock rotation and quality control.',
-                    'Provided exemplary customer service, addressing customer inquiries and concerns.',
+                    'Supported daily fresh department operations by organizing freight, rotating stock, and maintaining product availability',
+                    'Operated material-handling equipment as a forklift-certified associate to support efficient inventory movement',
+                    'Assisted customers on the sales floor while maintaining clean, organized, and well-stocked work areas',
                 ],
+
             },
             {
                 id: 'job-4',
@@ -161,10 +164,11 @@ const Timeline = () => {
                 jobTitle: 'Operator / Quality Control',
                 dateRange: 'Oct 2022 - Oct 2023',
                 details: [
-                    'Operated direct-to-garment printers, ensuring high-quality prints.',
-                    'Performed routine maintenance and troubleshooting on printing equipment.',
-                    'Collaborated with the design team to achieve accurate and vibrant print results.',
+                    'Operated and maintained Kornit DTG printing systems, ensuring consistent production output and minimizing equipment downtime',
+                    'Performed quality assurance checks to validate print accuracy, color consistency, and sale-ready production standards',
+                    'Trained new team members on machine operation, maintenance workflows, and digital asset preparation using Adobe Photoshop and Illustrator',
                 ],
+
             },
             {
                 id: 'job-5',
@@ -174,9 +178,9 @@ const Timeline = () => {
                 jobTitle: 'Senior Game Advisor',
                 dateRange: 'Oct 2020 - May 2021',
                 details: [
-                    'Provided exceptional customer service and expert advice on gaming products.',
-                    'Achieved top salesperson status for three consecutive months.',
-                    'Managed inventory, including receiving and processing new stock.',
+                    'Led daily store operations and supervised a small team, coordinating task execution, workflow efficiency, and customer support',
+                    'Maintained inventory accuracy and system integrity through regular audits and stock adjustments within the GameStop POS platform',
+                    'Handled cash management and operational reporting, ensuring accountability, compliance, and secure financial close-out procedures',
                 ],
             },
             {
@@ -187,10 +191,11 @@ const Timeline = () => {
                 jobTitle: 'IT / Help Desk',
                 dateRange: 'Jan 2015 - Present',
                 details: [
-                    'Provided technical support and troubleshooting for hardware and software issues.',
-                    'Managed IT inventory, including ordering and maintaining supplies.',
-                    'Conducted training sessions for staff on new technologies and software.',
+                    'Provided day-to-day IT and help desk support by maintaining office hardware, printers, and internal systems',
+                    'Standardized document workflows by creating Microsoft Office templates and assisting staff with PDFs, email distribution, and file access',
+                    'Supported business operations through POS reporting, expense tracking, menu updates, and deployment of digital and in-store media systems',
                 ],
+
             },
             {
                 id: 'job-7',
@@ -198,12 +203,13 @@ const Timeline = () => {
                 companyLogoSrc: SuperiorGrocersLogo,
                 companyInitials: 'SG',
                 jobTitle: 'Sales Associate',
-                dateRange: 'Aug 2014 - Jan 2015',
+                dateRange: 'Aug 2014 - Jan 2016',
                 details: [
-                    'Assisted customers with product selection and inquiries.',
-                    'Maintained cleanliness and organization of the sales floor.',
-                    'Executed effective merchandising strategies to maximize sales.',
+                    'Coordinated daily department operations, maintaining structured inventory organization and workflow consistency',
+                    'Communicated inventory requirements and operational needs directly with management to support efficient ordering processes',
+                    'Supported high-volume retail operations by ensuring stock accuracy and delivering reliable customer assistance',
                 ],
+
             },
         ],
         []
