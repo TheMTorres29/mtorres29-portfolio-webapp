@@ -3,7 +3,25 @@ import './Portfolio.css';
 
 const projects = [
     {
-        id: 'proj-1',
+        id: 'proj-8',
+        title: 'WillYouBeMyValentine 2026',
+        description: 'Will You Be My Valentine 2026 is a romantic web application designed to help users plan the perfect Valentine\'s Day surprise for their loved ones.',
+        tech: ['React', 'JavaScript'],
+        thumbnail: 'https://drive.google.com/thumbnail?id=1wjfBfwiTPnnjtLS24pFVRmVkoejkSvwM&export=download',
+        liveUrl: 'https://themtorres29.github.io/ValentinesDay2026/',
+        githubUrl: 'https://github.com/TheMTorres29/ValentinesDay2026',
+    },
+    {
+        id: 'proj-7',
+        title: 'Productivity Tracker',
+        description: 'A web application designed to help users track their productivity and manage tasks effectively.',
+        tech: ['React', 'JavaScript', 'NodeJS', 'MongoDB', 'Express'],
+        thumbnail: 'https://drive.google.com/thumbnail?id=1N-bpVae2MYdMAyFPk3lJc0vcQPOKFgOg&export=download',
+        liveUrl: 'https://prologistixwalmart-productiontracker.up.railway.app/',
+        githubUrl: 'https://github.com/TheMTorres29/PrologistixWalmartTracker',
+    },
+    {
+        id: 'proj-6',
         title: 'Random Smashdown',
         description: 'The original ReactJS Fighter Randomizer for Super Smash Bros Ultimate.',
         tech: ['React', 'JavaScript'],
@@ -12,7 +30,7 @@ const projects = [
         githubUrl: null,
     },
     {
-        id: 'proj-2',
+        id: 'proj-5',
         title: 'Random Smashdown (Flask)',
         description: 'A random character generator for Super Smash Bros. Ultimate using Python and Flask.',
         tech: ['Python', 'Flask', 'AWS'],
@@ -21,7 +39,7 @@ const projects = [
         githubUrl: null,
     },
     {
-        id: 'proj-3',
+        id: 'proj-4',
         title: 'Random Smashdown (TKinter)',
         description: 'A random character generator for Super Smash Bros. Ultimate using Python and TKinter.',
         tech: ['Python', 'TKinter'],
@@ -30,7 +48,7 @@ const projects = [
         githubUrl: 'https://github.com/TheMTorres29/RandomSmashdown-Tkinter',
     },
     {
-        id: 'proj-4',
+        id: 'proj-3',
         title: 'MTCG PokeStop Page',
         description: 'A simple PokeStop landing page for the MTCG Card shop using HTML and CSS.',
         tech: ['React', 'HTML', 'CSS'],
@@ -39,7 +57,7 @@ const projects = [
         githubUrl: null,
     },
     {
-        id: 'proj-5',
+        id: 'proj-2',
         title: 'Tropa Magica Game',
         description: 'First Unity game I built for Game Design course.',
         tech: ['Unity', 'C#'],
@@ -48,16 +66,7 @@ const projects = [
         githubUrl: 'https://github.com/TheMTorres29/TropaMagicaGameBuild/releases',
     },
     {
-        id: 'proj-6',
-        title: 'YT-MP3 Downloader',
-        description: 'YouTube to MP3 Downloader I made using Python.',
-        tech: ['Python'],
-        thumbnail: 'https://drive.google.com/thumbnail?id=1tMvN7JdBXRBa6wUGAa2zryRMHHb0VTle&export=download',
-        liveUrl: null,
-        githubUrl: 'https://github.com/TheMTorres29/YT-MP3Downloader/releases/tag/YT-MP3',
-    },
-    {
-        id: 'proj-7',
+        id: 'proj-1',
         title: 'Custom Fightstick',
         description: 'Custom universal fightstick I built to use when I play fighting games.',
         tech: ['Hardware', 'DIY'],

@@ -2,6 +2,9 @@ import React from 'react';
 import Timeline from '../timeline/Timeline.jsx';
 import './AboutMe.css';
 
+import CSUSBLogo from '../../assets/imgs/logos/csusb.png';
+import NCCLogo from '../../assets/imgs/logos/ncc.png';
+
 const education = [
     {
         id: 'edu-1',
@@ -9,7 +12,7 @@ const education = [
         degree: 'Bachelor of Science',
         field: 'Computer Science',
         dateRange: '2018 - 2022',
-        logoSrc: 'https://drive.google.com/thumbnail?id=1CMheUs0GA-IEhykYB3d6N1kdq95WvstA',
+        logoSrc: CSUSBLogo,
     },
     {
         id: 'edu-2',
@@ -17,7 +20,7 @@ const education = [
         degree: 'Associate of Science',
         field: 'Math and Science',
         dateRange: '2014 - 2018',
-        logoSrc: 'https://drive.google.com/thumbnail?id=12sGFs3mxArHew0KawayCiFY20xr_BK1V',
+        logoSrc: NCCLogo,
     },
 ];
 
