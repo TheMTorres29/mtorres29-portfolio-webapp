@@ -8,6 +8,11 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     const [isAboutVisible, setIsAboutVisible] = useState(false)
 
+    // Close menu on route change
+    useEffect(() => {
+        setIsMenuOpen(false)
+    }, [location.pathname])
+
     // Track when #about section is in view
     useEffect(() => {
         const aboutSection = document.getElementById('about')
@@ -20,23 +25,21 @@ const Navbar = () => {
             ([entry]) => {
                 setIsAboutVisible(entry.isIntersecting)
             },
-            { threshold: 0.3 } // 30% of section must be visible
+            { threshold: 0.3 }
         )
 
         observer.observe(aboutSection)
 
         return () => observer.disconnect()
-    }, [location.pathname]) // Re-run when route changes
+    }, [location.pathname])
 
     const handleHomeClick = (e) => {
         e.preventDefault()
-        setIsMenuOpen(false) // Close menu on click
+        setIsMenuOpen(false)
 
-        // If already on Home, just scroll
         if (location.pathname === '/') {
             document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })
         } else {
-            // Navigate to Home first, then scroll after render
             navigate('/')
             setTimeout(() => {
                 document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })
@@ -46,13 +49,11 @@ const Navbar = () => {
 
     const handleAboutClick = (e) => {
         e.preventDefault()
-        setIsMenuOpen(false) // Close menu on click
+        setIsMenuOpen(false)
 
-        // If already on Home, just scroll
         if (location.pathname === '/') {
             document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })
         } else {
-            // Navigate to Home first, then scroll after render
             navigate('/')
             setTimeout(() => {
                 document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })
@@ -64,7 +65,6 @@ const Navbar = () => {
         setIsMenuOpen((prev) => !prev)
     }
 
-    // Determine active states
     const isHomePage = location.pathname === '/'
     const isHomeActive = isHomePage && !isAboutVisible
     const isAboutActive = isHomePage && isAboutVisible
@@ -72,12 +72,10 @@ const Navbar = () => {
     return (
         <nav className="nav-container">
             <div className="nav-content">
-                {/* Logo/Brand */}
                 <Link to="/" className="nav-logo" onClick={handleHomeClick}>
                     MTorres
                 </Link>
 
-                {/* Hamburger Button (mobile only) */}
                 <button
                     type="button"
                     className="nav-hamburger"
@@ -90,55 +88,33 @@ const Navbar = () => {
                     <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
                 </button>
 
-                {/* Navigation Links - Desktop */}
                 <ul className="nav-links">
                     <li className="nav-link">
-                        <NavLink
-                            to="/"
-                            className={() => isHomeActive ? 'active' : ''}
-                            onClick={handleHomeClick}
-                        >
+                        <NavLink to="/" className={() => isHomeActive ? 'active' : ''} onClick={handleHomeClick}>
                             Home
                         </NavLink>
                     </li>
                     <li className="nav-link">
-                        <a
-                            href="#about"
-                            onClick={handleAboutClick}
-                            className={isAboutActive ? 'active' : ''}
-                        >
+                        <a href="#about" onClick={handleAboutClick} className={isAboutActive ? 'active' : ''}>
                             About Me
                         </a>
                     </li>
                     <li className="nav-link">
-                        <NavLink
-                            to="/projects"
-                            className={({ isActive }) => isActive ? 'active' : ''}
-
-                        >
+                        <NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''}>
                             Projects
                         </NavLink>
                     </li>
                 </ul>
 
-                {/* Mobile Menu */}
                 <div className={`nav-mobile-menu ${isMenuOpen ? 'is-open' : ''}`}>
                     <ul className="nav-mobile-links">
                         <li className="nav-mobile-link">
-                            <NavLink
-                                to="/"
-                                className={() => isHomeActive ? 'active' : ''}
-                                onClick={handleHomeClick}
-                            >
+                            <NavLink to="/" className={() => isHomeActive ? 'active' : ''} onClick={handleHomeClick}>
                                 Home
                             </NavLink>
                         </li>
                         <li className="nav-mobile-link">
-                            <a
-                                href="#about"
-                                onClick={handleAboutClick}
-                                className={isAboutActive ? 'active' : ''}
-                            >
+                            <a href="#about" onClick={handleAboutClick} className={isAboutActive ? 'active' : ''}>
                                 About Me
                             </a>
                         </li>
@@ -146,7 +122,7 @@ const Navbar = () => {
                             <NavLink
                                 to="/projects"
                                 className={({ isActive }) => isActive ? 'active' : ''}
-
+                                onClick={() => setIsMenuOpen(false)}
                             >
                                 Projects
                             </NavLink>
