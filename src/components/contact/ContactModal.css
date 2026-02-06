@@ -1,0 +1,154 @@
+.contact-modal-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+    animation: contact-backdrop-fade 200ms ease-out;
+}
+
+.contact-modal-backdrop.is-closing {
+    animation: contact-backdrop-fade-out 200ms ease-in forwards;
+}
+
+.contact-modal {
+    width: 100%;
+    max-width: 32rem; /* max-w-lg */
+    background: var(--color-component-bg);
+    border-radius: 0.75rem; /* rounded-xl */
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25); /* shadow-2xl */
+    padding: 1.5rem; /* p-6 */
+    border: 1px solid rgba(255,255,255,0.1); /* border border-white/10 */
+
+    animation: contact-modal-drop 200ms ease-out;
+}
+
+.contact-modal.is-closing {
+    animation: contact-modal-rise 200ms ease-in forwards;
+}
+
+.contact-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem; /* mb-4 */
+}
+
+.contact-modal-title {
+    font-size: 1.25rem; /* text-xl */
+    font-weight: 600; /* font-semibold */
+    color: #fff; /* text-white */
+}
+
+.contact-modal-close {
+    color: rgba(255,255,255,0.6); /* text-white/60 */
+    transition: color 0.2s;
+    font-size: 2rem; /* text-2xl */
+    line-height: 1; /* leading-none */
+    background: transparent;
+    border: none;
+}
+.contact-modal-close:hover {
+    color: #fff; /* hover:text-white */
+}
+
+.contact-modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* gap-4 */
+}
+
+.contact-form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem; /* gap-1 */
+}
+
+.contact-label {
+    font-size: 0.875rem; /* text-sm */
+    color: rgba(255,255,255,0.7); /* text-white/70 */
+}
+
+.contact-input,
+.contact-textarea {
+    width: 100%;
+    border-radius: 0.5rem; /* rounded-lg */
+    background: rgba(255,255,255,0.05); /* bg-white/5 */
+    border: 1px solid rgba(255,255,255,0.1); /* border border-white/10 */
+    color: #fff; /* text-white */
+    padding: 0.5rem 0.75rem; /* px-3 py-2 */
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.contact-input:focus,
+.contact-textarea:focus {
+    border-color: var(--color-container-bg);
+    box-shadow: 0 0 0 1px var(--color-container-bg);
+}
+
+.contact-modal-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.75rem; /* gap-3 */
+    padding-top: 0.5rem; /* pt-2 */
+}
+
+.contact-primary {
+    padding: 0.5rem 1.25rem; /* px-5 py-2 */
+    border-radius: 0.5rem; /* rounded-lg */
+    background: var(--color-container-bg);
+    color: #fff;
+    font-weight: 500; /* font-medium */
+    transition: background-color 0.2s;
+}
+.contact-primary:hover {
+    background: var(--color-outline-brightblue);
+}
+
+.contact-secondary {
+    padding: 0.5rem 1.25rem; /* px-5 py-2 */
+    border-radius: 0.5rem; /* rounded-lg */
+    background: rgba(255,255,255,0.1); /* bg-white/10 */
+    color: #fff;
+    font-weight: 500; /* font-medium */
+    transition: background-color 0.2s;
+}
+.contact-secondary:hover {
+    background: rgba(255,255,255,0.2); /* bg-white/20 */
+}
+
+.contact-success {
+    font-size: 0.875rem; /* text-sm */
+    color: #4ade80; /* text-green-400 */
+}
+
+.contact-error {
+    font-size: 0.875rem; /* text-sm */
+    color: #f87171; /* text-red-400 */
+}
+
+/* --- Add these keyframes at the bottom of the file --- */
+@keyframes contact-backdrop-fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes contact-backdrop-fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes contact-modal-drop {
+    from { opacity: 0; transform: translateY(-12px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes contact-modal-rise {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-12px); }
+}

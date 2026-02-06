@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 
-const Footer = () => {
+const Footer = ({ onContactClick }) => {
     const currentYear = new Date().getFullYear();
 
     const socialLinks = [
@@ -51,9 +51,9 @@ const Footer = () => {
                 </div>
 
                 {/* Contact Button */}
-                <a href="mailto:your-email@example.com" className="footer-button">
+                <button type="button" className="footer-button" onClick={onContactClick}>
                     Contact Me
-                </a>
+                </button>
             </div>
 
             {/* Bottom Bar */}

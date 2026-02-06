@@ -28,6 +28,22 @@ const Navbar = () => {
         return () => observer.disconnect()
     }, [location.pathname]) // Re-run when route changes
 
+    const handleHomeClick = (e) => {
+        e.preventDefault()
+        setIsMenuOpen(false) // Close menu on click
+
+        // If already on Home, just scroll
+        if (location.pathname === '/') {
+            document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })
+        } else {
+            // Navigate to Home first, then scroll after render
+            navigate('/')
+            setTimeout(() => {
+                document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })
+            }, 100)
+        }
+    }
+
     const handleAboutClick = (e) => {
         e.preventDefault()
         setIsMenuOpen(false) // Close menu on click
@@ -44,10 +60,6 @@ const Navbar = () => {
         }
     }
 
-    const handleLinkClick = () => {
-        setIsMenuOpen(false) // Close menu when any link is clicked
-    }
-
     const toggleMenu = () => {
         setIsMenuOpen((prev) => !prev)
     }
@@ -61,8 +73,8 @@ const Navbar = () => {
         <nav className="nav-container">
             <div className="nav-content">
                 {/* Logo/Brand */}
-                <Link to="/" className="nav-logo" onClick={handleLinkClick}>
-                    MTorres29
+                <Link to="/" className="nav-logo" onClick={handleHomeClick}>
+                    MTorres
                 </Link>
 
                 {/* Hamburger Button (mobile only) */}
@@ -84,7 +96,7 @@ const Navbar = () => {
                         <NavLink
                             to="/"
                             className={() => isHomeActive ? 'active' : ''}
-                            onClick={handleLinkClick}
+                            onClick={handleHomeClick}
                         >
                             Home
                         </NavLink>
@@ -102,6 +114,7 @@ const Navbar = () => {
                         <NavLink
                             to="/projects"
                             className={({ isActive }) => isActive ? 'active' : ''}
+
                         >
                             Projects
                         </NavLink>
@@ -115,7 +128,7 @@ const Navbar = () => {
                             <NavLink
                                 to="/"
                                 className={() => isHomeActive ? 'active' : ''}
-                                onClick={handleLinkClick}
+                                onClick={handleHomeClick}
                             >
                                 Home
                             </NavLink>
@@ -133,7 +146,7 @@ const Navbar = () => {
                             <NavLink
                                 to="/projects"
                                 className={({ isActive }) => isActive ? 'active' : ''}
-                                onClick={handleLinkClick}
+
                             >
                                 Projects
                             </NavLink>

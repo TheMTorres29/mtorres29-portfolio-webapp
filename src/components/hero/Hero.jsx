@@ -4,7 +4,7 @@ import './Hero.css';
 
 const Hero = () => {
     return (
-        <section className="hero-container">
+        <section id="home" className="hero-container">
             <video
                 className="hero-bg-video"
                 src={StarSpace}
