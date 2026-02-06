@@ -61,6 +61,20 @@ const Navbar = () => {
         }
     }
 
+    const handleProjectsClick = (e) => {
+        e.preventDefault()
+        setIsMenuOpen(false)
+
+        if (location.pathname === '/projects') {
+            document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })
+        } else {
+            navigate('/projects')
+            setTimeout(() => {
+                document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })
+            }, 100)
+        }
+    }
+
     const toggleMenu = () => {
         setIsMenuOpen((prev) => !prev)
     }
@@ -100,9 +114,9 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className="nav-link">
-                        <NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''}>
+                        <a href="#projects" onClick={handleProjectsClick}>
                             Projects
-                        </NavLink>
+                        </a>
                     </li>
                 </ul>
 
@@ -119,13 +133,9 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li className="nav-mobile-link">
-                            <NavLink
-                                to="/projects"
-                                className={({ isActive }) => isActive ? 'active' : ''}
-                                onClick={() => setIsMenuOpen(false)}
-                            >
+                            <a href="#projects" onClick={handleProjectsClick}>
                                 Projects
-                            </NavLink>
+                            </a>
                         </li>
                     </ul>
                 </div>

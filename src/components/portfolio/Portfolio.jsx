@@ -24,7 +24,7 @@ const projects = [
         id: 'proj-6',
         title: 'Random Smashdown',
         description: 'The original ReactJS Fighter Randomizer for Super Smash Bros Ultimate.',
-        tech: ['React', 'JavaScript'],
+        tech: ['React', 'JavaScript', 'Amplify'],
         thumbnail: 'https://drive.google.com/thumbnail?id=1wU-jPVm9WqBKH4HIWlF9uiSqDPAqjeOR&export=download',
         liveUrl: 'https://random-smashdown.site',
         githubUrl: null,
@@ -91,7 +91,7 @@ const ExternalLinkIcon = () => (
 
 const Portfolio = () => {
     return (
-        <section className="portfolio-container">
+        <section id="projects" className="portfolio-container">
             <div className="portfolio-inner">
                 <h2 className="portfolio-heading">Projects</h2>
                 <p className="portfolio-intro">

@@ -58,7 +58,7 @@
 /* Logo - fills the circle without cropping */
 .timeline-logo {
     @apply w-full h-full p-0 object-contain;
-    transform: scale(1.75);
+    transform: scale(2.4);
 }
 
 .timeline-logo-fallback {
