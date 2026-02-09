@@ -6,12 +6,19 @@
 
 .footer-content  {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2
-           flex flex-col md:flex-row items-center justify-between gap-6;
+           grid gap-6 items-center;
+    grid-template-columns: 1fr auto 1fr; /* left | center | right */
 }
 
-/* Brand */
+@media (max-width: 767px) {
+    .footer-content {
+        @apply flex flex-col;
+    }
+}
+
+/* Brand (left) */
 .footer-brand {
-    @apply text-center md:text-left;
+    @apply text-center md:text-left justify-self-start;
 }
 
 .footer-brand-name {
@@ -22,24 +29,28 @@
     @apply text-sm text-white/60 mt-1;
 }
 
-/* Social Links */
+/* Social links (center) */
 .footer-social {
-    @apply flex items-center gap-4;
+    @apply flex items-center gap-4 justify-self-center;
 }
 
 .footer-social-link {
-    @apply text-white/70 hover:text-[var(--color-container-bg)] transition-colors duration-200;
+    @apply text-white/70 hover:text-[var(--color-container-bg)] transition-colors duration-400;
 }
 
 .footer-social-link:hover  {
-    @apply text-[var(--color-container-bg)];
+    @apply text-[var(--color-container-bg)] scale-105;
 }
 
 .footer-icon {
     @apply w-6 h-6;
 }
 
-/* Contact Button */
+/* Contact button (right) */
+.footer-button {
+    @apply justify-self-end;
+}
+
 .footer-button {
     @apply px-6 py-2.5 rounded-lg font-medium text-white
            bg-[var(--color-container-bg)] hover:bg-[var(--color-outline-brightblue)]

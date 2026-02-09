@@ -1,13 +1,22 @@
 import React from 'react';
 import './Portfolio.css';
 
+import ValAppIcon from '../../assets/imgs/projects/ValApp-Icon.png';
+import ProdTrackerIcon from '../../assets/imgs/projects/ProdTracker-Icon.png';
+import RandomSmashPreview from '../../assets/imgs/projects/RandomSmash-Preview.png';
+import SmashFlaskPreview from '../../assets/imgs/projects/SmashFlask-Preview.png';
+import SmashTkinterPreview from '../../assets/imgs/projects/SmashTkinter-Preview.png';
+import PokeStopPreview from '../../assets/imgs/projects/PokeStop-Preview.png';
+import TropaGamePreview from '../../assets/imgs/projects/TropaGame-Preview.png';
+import FightStickPreview from '../../assets/imgs/projects/FightStick-Preview.png';
+
 const projects = [
     {
         id: 'proj-8',
         title: 'WillYouBeMyValentine 2026',
         description: 'Will You Be My Valentine 2026 is a romantic web application designed to help users plan the perfect Valentine\'s Day surprise for their loved ones.',
-        tech: ['React', 'JavaScript'],
-        thumbnail: 'https://drive.google.com/thumbnail?id=1wjfBfwiTPnnjtLS24pFVRmVkoejkSvwM&export=download',
+        tech: ['React', 'JavaScript', 'HTML', 'CSS'],
+        thumbnail: ValAppIcon,
         liveUrl: 'https://themtorres29.github.io/ValentinesDay2026/',
         githubUrl: 'https://github.com/TheMTorres29/ValentinesDay2026',
     },
@@ -15,8 +24,8 @@ const projects = [
         id: 'proj-7',
         title: 'Productivity Tracker',
         description: 'A web application designed to help users track their productivity and manage tasks effectively.',
-        tech: ['React', 'JavaScript', 'NodeJS', 'MongoDB', 'Express'],
-        thumbnail: 'https://drive.google.com/thumbnail?id=1N-bpVae2MYdMAyFPk3lJc0vcQPOKFgOg&export=download',
+        tech: ['React', 'JavaScript', 'HTML', 'CSS','NodeJS', 'MongoDB', 'Express'],
+        thumbnail: ProdTrackerIcon,
         liveUrl: 'https://prologistixwalmart-productiontracker.up.railway.app/',
         githubUrl: 'https://github.com/TheMTorres29/PrologistixWalmartTracker',
     },
@@ -24,8 +33,8 @@ const projects = [
         id: 'proj-6',
         title: 'Random Smashdown',
         description: 'The original ReactJS Fighter Randomizer for Super Smash Bros Ultimate.',
-        tech: ['React', 'JavaScript', 'Amplify'],
-        thumbnail: 'https://drive.google.com/thumbnail?id=1wU-jPVm9WqBKH4HIWlF9uiSqDPAqjeOR&export=download',
+        tech: ['React', 'JavaScript', 'HTML', 'CSS', 'Amplify'],
+        thumbnail: RandomSmashPreview,
         liveUrl: 'https://random-smashdown.site',
         githubUrl: null,
     },
@@ -34,7 +43,7 @@ const projects = [
         title: 'Random Smashdown (Flask)',
         description: 'A random character generator for Super Smash Bros. Ultimate using Python and Flask.',
         tech: ['Python', 'Flask', 'AWS'],
-        thumbnail: 'https://drive.google.com/thumbnail?id=1rFG_kw6Ote7cvwEv63mE5WR9X6lFl-Nd&export=download',
+        thumbnail: SmashFlaskPreview,
         liveUrl: 'https://ec2-3-95-67-134.compute-1.amazonaws.com/',
         githubUrl: null,
     },
@@ -43,7 +52,7 @@ const projects = [
         title: 'Random Smashdown (TKinter)',
         description: 'A random character generator for Super Smash Bros. Ultimate using Python and TKinter.',
         tech: ['Python', 'TKinter'],
-        thumbnail: 'https://drive.google.com/thumbnail?id=1SLWNGXydBfeH-7wFRzgA2vlaGlK6mQgf&export=download',
+        thumbnail: SmashTkinterPreview,
         liveUrl: null,
         githubUrl: 'https://github.com/TheMTorres29/RandomSmashdown-Tkinter',
     },
@@ -51,8 +60,8 @@ const projects = [
         id: 'proj-3',
         title: 'MTCG PokeStop Page',
         description: 'A simple PokeStop landing page for the MTCG Card shop using HTML and CSS.',
-        tech: ['React', 'HTML', 'CSS'],
-        thumbnail: 'https://drive.google.com/thumbnail?id=1PpQHmXYbqDf-iR5eoExGoyGJ_tRZcLsp&export=download',
+        tech: ['ReactJS', 'HTML', 'CSS'],
+        thumbnail: PokeStopPreview,
         liveUrl: 'https://themtorres29.github.io/MTCG-PokeStop-Page/',
         githubUrl: null,
     },
@@ -61,7 +70,7 @@ const projects = [
         title: 'Tropa Magica Game',
         description: 'First Unity game I built for Game Design course.',
         tech: ['Unity', 'C#'],
-        thumbnail: 'https://drive.google.com/thumbnail?id=1i6Pb2SYeFOuiehyGQXEx6IpEs3919xzv&export=download',
+        thumbnail: TropaGamePreview,
         liveUrl: null,
         githubUrl: 'https://github.com/TheMTorres29/TropaMagicaGameBuild/releases',
     },
@@ -70,10 +79,10 @@ const projects = [
         title: 'Custom Fightstick',
         description: 'Custom universal fightstick I built to use when I play fighting games.',
         tech: ['Hardware', 'DIY'],
-        thumbnail: 'https://drive.google.com/thumbnail?id=1MgjusYrMT7GXVgv4bxvEzBdw5YFoIp8o&export=download',
+        thumbnail: FightStickPreview,
         liveUrl: null,
         githubUrl: null,
-        internalLink: '/fightstick', // For internal routing if needed
+        internalLink: '/fightstick',
     },
 ];
 

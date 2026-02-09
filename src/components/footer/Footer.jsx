@@ -31,7 +31,7 @@ const Footer = ({ onContactClick }) => {
                 {/* Brand / Logo */}
                 <div className="footer-brand">
                     <span className="footer-brand-name">MTorres29</span>
-                    <p className="footer-tagline">Building web applications concepts to life</p>
+                    <p className="footer-tagline">Building web application, bringing your concepts to life</p>
                 </div>
 
                 {/* Social Links */}
