@@ -24,6 +24,31 @@ const education = [
     },
 ];
 
+const certificates = [
+    {
+        id: "cert-1",
+        title: "Google AI Professional Certificate",
+        issuer: "Google (via Coursera)",
+        date: "May 2026",
+        modules: [
+          { name: "AI Fundamentals", link: "https://coursera.org/share/52632aec21dcbda4ca44bc3c87904710" },
+          { name: "AI for Brainstorming & Planning", link: "https://coursera.org/share/25c21177c7f80230b40e831230fd93ba" },
+          { name: "AI for Research & Insights", link: "https://coursera.org/share/4c23dd766fe56907d68c7f1d798025da" },
+          { name: "AI for Writing & Communicating", link: "https://coursera.org/share/af232e337717acdc3c2a0329d5471537" },
+          { name: "AI for Content Creation", link: "https://coursera.org/share/e5f9b3be0695d0196b07da3c2a641e83" },
+          { name: "AI for Data Analysis", link: "https://coursera.org/share/470f73da317af06e90925c37cc3d3862" },
+          { name: "AI for App Building", link: "https://coursera.org/share/4419238adf9c444748daa864ac711278" }
+        ],
+        highlights: [
+          "Engineered advanced prompts across 20+ hands-on labs using Google AI Studio.",
+          "Utilized natural language (vibe coding) to design, build, and test custom workflow apps.",
+          "Applied systematic prompt constraints to optimize data analytics and content workflows."
+        ]
+    },
+];
+
+
+
 const About = () => {
     return (
         <div id="about" className="about-me-container">
@@ -59,6 +84,34 @@ const About = () => {
                         </li>
                     ))}
                 </ul>
+                
+                {/* Certificates */}
+                <h2 className="certificate-heading">Certificates</h2>
+                <ul className="education-list">
+                    {certificates.map((cert) => (
+                        <li key={cert.id} className="education-item">
+                            <div className="education-content">
+                                <div className="education-main">
+                                    <span className="education-degree">{cert.title} from {cert.issuer}</span>
+                                    <span className="education-institution"> {cert.modules.map((module, index) => (
+                                        <React.Fragment key={index}>
+                                            <a href={module.link} target="_blank" rel="noopener noreferrer">
+                                                {module.name}
+                                            </a>
+                                            {index < cert.modules.length - 1 && <span className="certificate-separator">|</span>}
+                                        </React.Fragment>                                        
+                                    ))}
+                                    </span>
+                                </div>
+
+                                <div className="education-meta">
+                                    <span className="education-date">{cert.date}</span>
+                                </div>
+                            </div>
+                        </li>
+                    ))}
+                </ul>
+
             </section>
 
             {/* Work Experience */}

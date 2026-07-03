@@ -44,6 +44,28 @@
 
 .education-institution {
     @apply text-white/70;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.education-institution a {
+    @apply text-white/70 hover:text-white;
+    display: inline-block;
+}
+
+.certificate-heading {
+    @apply text-3xl font-bold text-white mb-8;
+    margin-top: 29px;
+}
+
+.certificate-separator {
+    display: inline-block;
+    margin: 0 8px;
+    color: #888888;
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1;
 }
 
 .education-meta {
