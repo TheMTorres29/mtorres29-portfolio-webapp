@@ -9,8 +9,18 @@ import SmashTkinterPreview from '../../assets/imgs/projects/SmashTkinter-Preview
 import PokeStopPreview from '../../assets/imgs/projects/PokeStop-Preview.png';
 import TropaGamePreview from '../../assets/imgs/projects/TropaGame-Preview.png';
 import FightStickPreview from '../../assets/imgs/projects/FightStick-Preview.png';
+import YMHPreview from '../../assets/imgs/projects/YMH-Preview.gif';
 
 const projects = [
+    {
+        id: 'proj-9',
+        title: 'Yours, Mine n Hours',
+        description: 'Team and hours tracker for small businesses. Automates and simplifies time management.',
+        tech: ['Vite', 'JavaScript', 'HTML', 'CSS', 'Supabase', ],
+        thumbnail: YMHPreview,
+        liveUrl: 'https://www.YoursMinenHours.com',
+        githubUrl: '',
+    },
     {
         id: 'proj-8',
         title: 'WillYouBeMyValentine 2026',
