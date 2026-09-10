@@ -1,12 +1,12 @@
 import React from 'react';
 import './Portfolio.css';
 
-import ValAppPreview from '../../assets/imgs/projects/ValApp-Preview.gif';
-import PrologTrackerPreview from '../../assets/imgs/projects/ProTracker-Preview.gif';
-import RandomSmashPreview from '../../assets/imgs/projects/RandomSmash-Preview.gif';
+import ValAppIcon from '../../assets/imgs/projects/ValApp-Icon.png';
+import ProdTrackerIcon from '../../assets/imgs/projects/ProdTracker-Icon.png';
+import RandomSmashPreview from '../../assets/imgs/projects/RandomSmash-Preview.png';
 import SmashFlaskPreview from '../../assets/imgs/projects/SmashFlask-Preview.png';
 import SmashTkinterPreview from '../../assets/imgs/projects/SmashTkinter-Preview.png';
-import PokeStopPreview from '../../assets/imgs/projects/PokeStop-Preview.gif';
+import PokeStopPreview from '../../assets/imgs/projects/PokeStop-Preview.png';
 import TropaGamePreview from '../../assets/imgs/projects/TropaGame-Preview.png';
 import FightStickPreview from '../../assets/imgs/projects/FightStick-Preview.png';
 import YMHPreview from '../../assets/imgs/projects/YMH-Preview.gif';
@@ -26,7 +26,7 @@ const projects = [
         title: 'WillYouBeMyValentine 2026',
         description: 'Will You Be My Valentine 2026 is a romantic web application designed to help users plan the perfect Valentine\'s Day surprise for their loved ones.',
         tech: ['React', 'JavaScript', 'HTML', 'CSS'],
-        thumbnail: ValAppPreview,
+        thumbnail: ValAppIcon,
         liveUrl: 'https://themtorres29.github.io/ValentinesDay2026/',
         githubUrl: 'https://github.com/TheMTorres29/ValentinesDay2026',
     },
@@ -35,7 +35,7 @@ const projects = [
         title: 'Productivity Tracker',
         description: 'A web application designed to help users track their productivity and manage tasks effectively.',
         tech: ['React', 'JavaScript', 'HTML', 'CSS','NodeJS', 'MongoDB', 'Express'],
-        thumbnail: PrologTrackerPreview,
+        thumbnail: ProdTrackerIcon,
         liveUrl: 'https://prologistixwalmart-productiontracker.up.railway.app/',
         githubUrl: 'https://github.com/TheMTorres29/PrologistixWalmartTracker',
     },
