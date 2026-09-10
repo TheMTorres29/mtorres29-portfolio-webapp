@@ -1,12 +1,12 @@
 import React from 'react';
 import './Portfolio.css';
 
-import ValAppIcon from '../../assets/imgs/projects/ValApp-Icon.png';
-import ProdTrackerIcon from '../../assets/imgs/projects/ProdTracker-Icon.png';
-import RandomSmashPreview from '../../assets/imgs/projects/RandomSmash-Preview.png';
+import ValAppIcon from '../../assets/imgs/projects/ValApp-Preview.gif';
+import ProdTrackerIcon from '../../assets/imgs/projects/ProTracker-Preview.gif';
+import RandomSmashPreview from '../../assets/imgs/projects/RandomSmash-Preview.gif';
 import SmashFlaskPreview from '../../assets/imgs/projects/SmashFlask-Preview.png';
 import SmashTkinterPreview from '../../assets/imgs/projects/SmashTkinter-Preview.png';
-import PokeStopPreview from '../../assets/imgs/projects/PokeStop-Preview.png';
+import PokeStopPreview from '../../assets/imgs/projects/PokeStop-Preview.gif';
 import TropaGamePreview from '../../assets/imgs/projects/TropaGame-Preview.png';
 import FightStickPreview from '../../assets/imgs/projects/FightStick-Preview.png';
 import YMHPreview from '../../assets/imgs/projects/YMH-Preview.gif';
